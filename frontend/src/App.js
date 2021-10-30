@@ -4,6 +4,7 @@ import './App.css';
 import './custom.scss';
 
 import NavigationBar from './components/NavigationBar.js';
+import TranslationForm from './components/TranslationForm.js';
 import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <NavigationBar/>
         </Router>
       </header>
+      <TranslationForm/>
     </div>
   );
 }
