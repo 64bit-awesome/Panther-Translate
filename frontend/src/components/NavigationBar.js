@@ -9,7 +9,7 @@ import logo from '../logo.svg';
 function NavigationBar() {
   return(
     <Navbar bg="primary" variant="dark">
-        <Nav style={{marginLeft: "18%"}}>
+        <Nav style={{marginLeft: "22%"}}>
         <Nav.Link as={Link} to={'/Translate'}>Translate</Nav.Link>
         </Nav>
         <Nav className="m-auto">
@@ -22,6 +22,8 @@ function NavigationBar() {
           </Nav.Link>
         </Nav>
         <Nav className="me-auto">
+          <Nav.Link as={Link} to={'/Login'} className={'navigation-right'}>Login</Nav.Link>
+          <Nav.Link as={Link} to={'/Register'} className={'navigation-right'}>Register</Nav.Link>
           <Nav.Link as={Link} to={'/About'} className={'navigation-right'}>About</Nav.Link>
         </Nav>
   </Navbar>
