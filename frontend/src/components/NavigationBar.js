@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import {Link} from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 
-import logo from '../logo.svg';
+import logo from '../panther_translate_draft_2.png';
 
 function NavigationBar() {
   return(
@@ -15,9 +15,9 @@ function NavigationBar() {
         <Nav className="m-auto">
           <Nav.Link as={Link} to={'/'}>
             <h2>
-              <span style={{color: 'white'}}>Panther</span>
-              <img style={{width: '50px'}} src={logo}/>
-              <span style={{color: 'yellow'}}>Translate</span>
+              <span style={{color: 'white'}}>Panther </span>
+              <img style={{width: '65px'}} src={logo}/>
+              <span style={{color: 'yellow'}}> Translate</span>
             </h2>
           </Nav.Link>
         </Nav>
