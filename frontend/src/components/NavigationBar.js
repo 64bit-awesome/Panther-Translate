@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import {Link} from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 
-import logo from '../panther_translate_draft_2.png';
+import logo from '../panther_translate_logo_final.png';
 
 function NavigationBar() {
   return(
@@ -16,7 +16,7 @@ function NavigationBar() {
           <Nav.Link as={Link} to={'/'}>
             <h2>
               <span style={{color: 'white'}}>Panther </span>
-              <img style={{width: '65px'}} src={logo}/>
+              <img style={{width: '65px'}} src={logo} alt="Panther-Translate Logo"/>
               <span style={{color: 'yellow'}}> Translate</span>
             </h2>
           </Nav.Link>
