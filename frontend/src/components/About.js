@@ -45,8 +45,8 @@ function Home() {
       <br/>
       <br/>
       <br/>
-      <Row style={{color: "white", textShadow: "none"}}>
-        <Col>
+      <Row>
+        <Col style={{color: "white", textShadow: "none"}}>
           <ListGroup>
           <ListGroup.Item action href="#Jordy" onClick={() => { setText("Jordy"); }}>
             Jordy Araujo
