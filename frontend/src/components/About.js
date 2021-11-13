@@ -28,6 +28,9 @@ function Home() {
       case "Nazanin":
         setAboutText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at augue nunc. \nNunc vulputate mi et lacus dignissim volutpat.");
         break;
+      default:
+        // do nothing
+        break;
     }
   };
 
