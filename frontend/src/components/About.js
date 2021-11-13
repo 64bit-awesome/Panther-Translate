@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import { Container, Col, Row, ListGroup } from "react-bootstrap";
 
+import aboutBackground from '../about-background.png';
+
 function Home() {
 
   const [aboutText, setAboutText] = useState("Choose a team memeber to learn more about them."); // holds the text of the team member selected.
@@ -36,14 +38,14 @@ function Home() {
 
 
   return(
-    <Container style={{marginTop: "2%"}}>
+    <Container style={{marginTop: "2%", backgroundImage:  `url(${aboutBackground})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", color: "white", textShadow: "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000", padding: "8%"}}>
       <Row>
         <Col><h2>Meet the Team</h2></Col>
       </Row>
       <br/>
       <br/>
       <br/>
-      <Row>
+      <Row style={{color: "white", textShadow: "none"}}>
         <Col>
           <ListGroup>
           <ListGroup.Item action href="#Jordy" onClick={() => { setText("Jordy"); }}>
