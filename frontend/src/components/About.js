@@ -72,9 +72,23 @@ function Home() {
         </ListGroup>
         </Col>
         <Col>
-          <pre>{aboutText}</pre>
+          <pre style={{fontSize: "large"}}>{aboutText}</pre>
         </Col>
       </Row>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     </Container>
   );
 }
