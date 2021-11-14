@@ -4,6 +4,7 @@ import './custom.scss';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Login from './components/Login.js';
+import Footer from './components/Footer.js';
 import Register from './components/Register.js';
 import NavigationBar from './components/NavigationBar.js';
 import TranslationForm from './components/TranslationForm.js';
@@ -22,7 +23,8 @@ function App() {
             <Route exact path="/Login" component={Login}/>
             <Route exact path="/Register" component={Register}/>
             <Route exact path="/Translate" component={TranslationForm}/>
-          </Switch>
+        </Switch>
+        <Footer/>
       </Router>
     </div>
   );
