@@ -29,7 +29,7 @@ function TranslationForm() {
               className="input-box"
             />
           </Col>
-          <Col style={{maxWidth: "8%"}}>
+          <Col style={{maxWidth: "8%", color: "#acac21"}}>
             <MdOutlineSyncAlt size={40}/>
           </Col>
           <Col>
@@ -43,7 +43,7 @@ function TranslationForm() {
         <Row>
           <Col></Col>
           <Col>
-            <input type="submit" style={{marginTop: "5%"}}/>
+            <input type="submit" value="      Translate      " style={{marginTop: "5%"}}/>
           </Col>
           <Col></Col>
         </Row>
