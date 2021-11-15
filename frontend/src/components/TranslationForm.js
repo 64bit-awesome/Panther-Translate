@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import { Container, Col, Row } from "react-bootstrap";
 
+import { MdOutlineSyncAlt } from "react-icons/md";
+
 function TranslationForm() {
 
   const [input, setInput] = useState(""); // holds the string to be translated.
@@ -26,6 +28,9 @@ function TranslationForm() {
               value={input}
               className="input-box"
             />
+          </Col>
+          <Col style={{maxWidth: "8%"}}>
+            <MdOutlineSyncAlt size={40}/>
           </Col>
           <Col>
             <h2>{outputLanguage}</h2>
