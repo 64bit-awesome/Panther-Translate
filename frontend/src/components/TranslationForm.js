@@ -27,6 +27,7 @@ function TranslationForm() {
             <textarea 
               value={input}
               className="input-box"
+              onChange={(event) => { setInput(event.target.value) }}
             />
           </Col>
           <Col style={{maxWidth: "8%", color: "#acac21"}}>
@@ -37,6 +38,7 @@ function TranslationForm() {
             <textarea 
               value={output}
               className="input-box"
+              onChange={(event) => { setOutput(event.target.value) }}
             />
           </Col>
         </Row>
