@@ -13,22 +13,19 @@ function Home() {
         setAboutText("Part-time cool person, half-time cod3r, 1/3 time theorist.");
         break;
       case "Morris":
-        setAboutText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at augue nunc. \nNunc vulputate mi et lacus dignissim volutpat.");
+        setAboutText("\"Nothing in life is free except life itself\" \n-Stephen Hawking.");
         break;
       case "Alex":
-        setAboutText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at augue nunc. \nNunc vulputate mi et lacus dignissim volutpat.");
+        setAboutText("Lorem ipsum dolor sit amet.");
         break;
       case "Tyson":
-        setAboutText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at augue nunc. \nNunc vulputate mi et lacus dignissim volutpat.");
+        setAboutText("\"His very first move was to sign Lamar Odom, \nWHO WAS ON CRACK!\" \n-Stephen A Smith.");
         break;
       case "Anthony":
-        setAboutText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at augue nunc. \nNunc vulputate mi et lacus dignissim volutpat.");
+        setAboutText("\"Everybody is a genius. \nBut if you judge a fish by its ability to climb a tree, \nit will live its whole life believing that it is stupid\" \n- Albert Einstein.");
         break;
       case "Frank":
-        setAboutText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at augue nunc. \nNunc vulputate mi et lacus dignissim volutpat.");
-        break;
-      case "Nazanin":
-        setAboutText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at augue nunc. \nNunc vulputate mi et lacus dignissim volutpat.");
+        setAboutText("\"You don’t learn from smart people, you learn from idiots. \nWatch why they do, and then don’t do it!\" \n-Rudolf Wanderone.");
         break;
       default:
         // do nothing
@@ -65,9 +62,6 @@ function Home() {
           </ListGroup.Item>
           <ListGroup.Item action href="#Frank" onClick={() => { setText("Frank"); }}>
             Frank Montesino 
-          </ListGroup.Item>
-          <ListGroup.Item action href="#Nazanin" onClick={() => { setText("Nazanin"); }}>
-            Nazanin Mammodzada 
           </ListGroup.Item>
         </ListGroup>
         </Col>
